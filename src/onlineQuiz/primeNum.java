@@ -11,14 +11,12 @@ public class primeNum {
             if (isPrime(n)) {
                 count++ ;
                 System.out.print(n+" ");
-                if (n % 10 == 0) {
-                    System.out.println() ;
-                }
-            }
-            System.out.println();
-            System.out.println("There're totally"+count+"prime numbers between 101 and 200");
-        }
 
+            }
+
+        }
+        System.out.println();
+        System.out.println("There're totally "+count+" prime numbers between 101 and 200");
     }
     private static boolean isPrime(int a) {
         boolean pri = true;
