@@ -1,6 +1,7 @@
 package onlineQuiz;
 /*
 Find out how many prime numbers there is between 101 and 200, then list them.
+
  */
 public class primeNum {
     public static void main (String[] args) {
