@@ -10,5 +10,6 @@ public class TestIO {
         System.out.print("Enter string b: ");
         String b = in.next();
         System.out.println("a: " + a + ", b: "+ b);
+        in.close();
     }
 }
