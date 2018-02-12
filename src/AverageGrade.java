@@ -24,6 +24,8 @@ public class AverageGrade {
             bigAvg = classSum / (studentNum * i) ;
             System.out.println ("The average grade of " + i + "th class is " + avg);
             System.out.println ("The average grade of all students so far is " + bigAvg);
+
         }
+        in.close();
     }
 }
